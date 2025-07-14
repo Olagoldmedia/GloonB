@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Page title</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+</head>
+<body>
+    <nav>
+      <h2>  <i class="fa fa-school"></i> GloonB</h2>
+      
+      <a href="index.html"><i class="fa fa-arrow-left"></i></a>
+    </nav>
+    <div class="body">
+    <div class="achieve">
+      <form>
+          <h2>Login</h2>
+          <p>Username</p>
+          <input type="text" class="input" placeholder="Enter Username">
+          <p>Password</p>
+          <input type="password" class="input" placeholder="Enter Password">
+          <input type="submit" value="Login" class="btn">
+          
+          <span><a href="#">Forgotten Password</a></span>
+          
+      </form>
+    </div>
+    </div>
+    
+    <style>
+         *{
+        margin:0;
+        padding :0;
+        box-sizing:border-box;
+    }
+    .body{
+        display:flex;
+        align-items:center;
+        justify-content:center;
+        height: 90vh;
+        width:100vw;
+    }
+    nav{
+        position :fixed;
+    left:0;
+    right:0;
+    background: #DAEBFF;
+    margin-bottom:70px;
+    top:0;
+    z-index:99;
+    color:#54A3FF;
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    padding:20px 30px;
+    transition :all 0.5s ease;
+    }
+    
+     .achieve{
+        width: 90%;
+        margin:30px;
+        background :linear-gradient(210deg,#54a3ff, #8e1840 );
+        padding:20px 30px;
+        border-radius:10px;
+    }
+   form h2{
+        margin-bottom:20px;
+        color:white
+    }
+    form p{
+        margin:10px 0;
+        color :white;
+        font-size:17px;
+        font-weight:700;
+        display :none;
+        
+        
+    }
+   form .input{
+        margin:15px 0;
+        border:none;
+        padding:5px 10px;
+        font-size:18px;
+        width: 100%;
+        background : transparent ;
+        outline:none;
+        color :white;
+        border-bottom:2px solid white;
+    }
+    form .input::placeholder {
+        color : white ;
+    }
+    form .btn{
+        width :100%;
+        padding :12px 50px;
+        border :none;
+        outline:none;
+        font-size:19px;
+        font-weight:700;
+        cursur:pointer;
+        margin:15px 0;
+        background :#54a3ff;
+        color :white;
+        border-radius:10px;
+    }
+    form .btn:hover{
+        background: #8e1840;
+    }
+    form span a{
+    display :block;
+        text-align:center;
+        font-size:17px;
+        text-decoration:none;
+        color:#54a3ff;
+        
+    }
+    </style>
+</body>
+</html>

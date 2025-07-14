@@ -1,0 +1,226 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}a{
+    text-decoration:none;
+    color:#54a3ff;
+}
+.wrapper{
+    background: #DAEBFF;
+    padding: 0px;
+}
+.menu{
+    display :none;
+    font-size:30px;
+}
+.container {
+    position :fixed;
+    left:0;
+    right:0;
+    background: #DAEBFF;
+    margin-bottom:70px;
+    top:0;
+    z-index:99;
+    color:#54A3FF;
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    padding:40px 30px;
+    transition :all 0.5s ease;
+    
+}
+nav{
+    margin-top:-20px;
+    transition :all 0.7s ease; 
+}
+nav ul{
+    
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    list-style:none;
+    gap:20px;
+    
+    
+}
+nav ul li a{
+    text-decoration:none;
+    color: #54A3FF;
+    font-size:22px;
+}
+nav ul .login a{
+    background:#54A3FF ;
+    color:white;
+    font-weight:700;
+    padding:10px;
+    border-radius: 10px;
+}
+nav ul .login a:hover{
+    background: #DAEBFF;
+    color :#54A3FF;
+    border:1px solid #54A3FF;
+    }
+    
+.welcome{
+    font-size:10px;
+    width: 90%;
+    text-align: center ;
+    padding :10px 30px ;
+    margin:10px auto 5px;
+    
+    border-radius:20px;
+}
+.welcome h2{
+    margin-bottom:10px;
+    font-size:15px;
+    font-weight:700;
+    color : Black;
+    text-decoration:underline;
+}
+.welcome p{
+    color:#daebff;
+    font-size:13px;
+    color :#2c58836d;
+}
+.welcome .btn{
+    padding:10px 30px;
+    border-radius:10px;
+    border:none;
+    font-weight:800;
+    font-size:18px;
+    margin:40px 0;
+    background: #54A3FF;
+    color:white;
+    transition :all 0.5s ease;
+    border:2px solid transparent;
+}
+.welcome .btn:hover {
+    background : transparent ;
+    border:2px solid #54a3ff;
+    color:#54a3ff;
+}
+.our{
+    margin:20px;
+    padding:20px 15px;
+    background :#54a3ff;
+    
+}
+.our h2{
+    color :#54a3ff;
+    text-align:center;
+    background :#daebff;
+    padding:10px 30px;
+    border-radius:10px;
+    margin-bottom:20px;
+}
+.our p{
+    border-left:8px solid #2c58836d;
+    background: #daebff;
+    margin-top:20px;
+    padding:20px 10px;
+}
+.explore{
+
+    width: 100%;
+    padding :30px 20px;
+    background: #daebff;
+    text-align: center ;
+    font-size:18px;
+    border-radius:0px;
+    
+}
+.mission{
+    margin:10px;
+    padding:20px 15px;
+    background :#820b4bb2;
+    color :#fff;
+    margin:20px 10px;
+    border-radius: 10px;
+    text-align:center;
+}
+.mission h2{
+    color:#000;
+    text-align:center;
+    background : white;
+    padding:10px 30px;
+    border-radius:10px;
+    margin-bottom:20px;
+}    
+    
+     .achieve{
+        
+        margin:30px;
+        background :#eee;
+        padding:20px 30px;
+        border-radius:10px;
+    }
+    .achieve h2{
+        padding-bottom:20px;
+        
+    }
+    .achieve p{
+        padding-bottom:15px;
+    }
+   .achieve h3{
+        padding:5px 0;
+        color :#820b4bb2;
+    }
+    
+
+@media screen and (max-width: 800px){
+.menu{
+        display:block;
+    }
+    .container{
+        padding :10px 30px;
+    }
+    nav{
+        position : absolute ;
+        left:0;
+        top:70px;
+        z-index:99;
+        overflow :hidden;
+        transition :all 0.7s ease;
+    }
+   nav ul{
+        flex-direction:column;
+        gap:0px;
+        background: #54a3ff;
+        
+    }
+nav ul li a{
+    color:white;
+    font-size:20px;
+    display :block;
+    width:100vw;
+    text-align:center;
+    padding :15px 80px;
+    margin-top:0;
+    background: #54a3ff;
+    transition :all 0.8s ease;
+    font-weight:700;
+    
+    
+}
+nav ul li a:hover{
+    background: #DAEBFF;
+    color :#54a3ff;
+}
+nav ul .login a{
+    color:#54A3FF ;
+    background-color:white;
+    font-weight:700;
+    padding:10px;    
+    border-radius: 0px;    
+    transition :all 0.7s ease;
+}
+
+nav ul .login a:hover{
+    color: #54a3ff;
+    background-color :#daebff;
+    border:3px solid white;
+    }
+    
+    
+}
