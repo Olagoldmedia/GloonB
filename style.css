@@ -188,6 +188,7 @@ nav ul .login a:hover{
     }
 nav ul li a{
     color:white;
+    width:100vw;
     font-size:20px;
     display :block;
     text-align:center;
@@ -196,7 +197,7 @@ nav ul li a{
     background: #54a3ff;
     transition :all 0.8s ease;
     font-weight:700;
-    width:100vw;
+    
     
 }
 nav ul li a:hover{
