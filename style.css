@@ -17,7 +17,7 @@
 .container {
     position :fixed;
     left:0;
-    
+    right:0;
     background: #DAEBFF;
     margin-bottom:70px;
     top:0;
@@ -31,7 +31,7 @@
     
 }
 nav{
-    margin-top:-20px;
+    
     transition :all 0.7s ease; 
 }
 nav ul{
