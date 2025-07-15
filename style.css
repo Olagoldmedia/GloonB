@@ -196,7 +196,7 @@ nav ul li a{
     background: #54a3ff;
     transition :all 0.8s ease;
     font-weight:700;
-    
+    width:100vw;
     
 }
 nav ul li a:hover{
