@@ -64,11 +64,9 @@ nav ul .login a:hover{
     
 .welcome{
     font-size:10px;
-    
     text-align: center ;
     padding :10px 30px ;
     margin:10px auto 5px;
-    
     border-radius:20px;
 }
 .welcome h2{
@@ -131,7 +129,6 @@ nav ul .login a:hover{
     
 }
 .mission{
-    margin:10px;
     padding:20px 15px;
     background :#820b4bb2;
     color :#fff;
